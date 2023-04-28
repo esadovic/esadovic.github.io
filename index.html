@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emir Sadović Photography</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+    <script src="script.js"> </script>
+</head>
+<body>
+     <div class="wrapper">
+        <div class="top-bar">
+            <div class="logo"> 
+                <a href="#home"><img src="images/logo4.png"></a>              
+            </div>
+            <div class="nav-bar">
+                <ul>
+                <li class="nav-item" active id="nav-home" onclick="onNavChange('nav-home')"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item" id="nav-gallery" onclick="onNavChange('nav-gallery')"><a class="nav-link" href="#gallery">Gallery</a></li>
+                <li class="nav-item" id="nav-blog" onclick="onNavChange('nav-blog')"><a class="nav-link" href="#blog">Blog</a></li>
+                <li class="nav-item" id="nav-about" onclick="onNavChange('nav-about')"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item" id="nav-contact" onclick="onNavChange('nav-contact')"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div> 
+            <div class="search-box">
+                <div class="input-search">
+                    <input type="text" placeholder="Search">
+                    <div class="search-icon">
+                        <span><i class="fa fa-search"></i></span>
+                    </div>
+                </div>
+
+            </div>
+            
+            <section id="home">
+                <div class="hero-text">
+                    <h1>Wellcome to my photo portfolio</h1>
+                    <p>Photographers are the most violent groups of people. First they frame you, then they shoot you, then they hang you on the wall.
+                     But if you're real good they will scrapbook you!!!</p>
+                           
+                </div>
+                <div class="hero-banner">
+                    <img src="./images/1.jpg">
+                </div >
+            </section>
+            <section id="gallery"> 
+   <!--            <div class="wrapper">
+                <div class="boxes">
+                    <div class="slider">
+                        <input checked="checked" id="id1" name="ani" type="radio"> 
+                        <label for="id1"><img src="img/1.jpg" width="100"></label> 
+                        <img src="img/1.jpg">
+    
+                        <input id="id2" name="ani" type="radio"> 
+                        <label for="id2"><img src="img/2.jpg" width="100"></label> 
+                        <img src="img/2.jpg"> 
+                            
+                        <input id="id3" name="ani" type="radio"> 
+                        <label for="id3"><img src="img/3.jpg" width="100"></label> 
+                        <img src="img/3.jpg"> 
+                        
+                        <input id="id4" name="ani" type="radio"> 
+                        <label for="id4"><img src="img/4.jpg" width="100"></label> 
+                        <img src="img/4.jpg"> 
+                        
+                        <input id="id5" name="ani" type="radio"> 
+                        <label for="id5"><img src="img/5.jpg" width="100"></label> 
+                        <img src="img/5.jpg"></div>
+                </div>
+            </div> -->
+
+
+
+                 <div class="intro"> 
+                  <br>
+                    <p>Kliknite na sličicu, da biste je videli u punoj rezoluciji</p> 
+                    <br>
+                    <div id="image-gallery">
+                      <img id="current-image" src="images/image1.jpg" alt="Image 1">
+                    <div id="image-thumbs">
+                        <img src="images/image1.jpg" alt="Image 1" class="thumb">
+                        <img src="images/image2.jpg" alt="Image 2" class="thumb">
+                        <img src="images/image3.jpg" alt="Image 3" class="thumb">
+                        <img src="images/image4.jpg" alt="Image 4" class="thumb">
+                        <img src="images/image5.jpg" alt="Image 5" class="thumb">
+                        <img src="images/image6.jpg" alt="Image 6" class="thumb">
+                        <img src="images/image7.jpg" alt="Image 7" class="thumb">
+                        <img src="images/image8.jpg" alt="Image 8" class="thumb">
+                        <img src="images/image9.jpg" alt="Image 9" class="thumb">
+                        <img src="images/image10.jpg" alt="Image 10" class="thumb"> 
+                    </div> 
+                    </div>
+                  </div> 
+               
+            </section>
+             
+            
+            <section id="blog">
+            <div id="left">
+                <div class="article">
+                    <div class="top">
+                        <h1>Blog</h1>
+                        <br>
+                      <p class="calendar">APR <span>28</span></p>
+                      <h2><a href="https://www.google.com/">Izbor i obrada fotografije u pet jednostavnih koraka</a></h2>
+                      <p class="info"> <span class="category"><a href="https://www.google.com/">Category</a></span> <span class="comments"><a href="https://www.google.com/">15 comments</a></span> </p>
+                    </div>
+                    <div class="text">
+                      <p> Izbor i obrada fotografije, zadatak je koji ponavljamo kod svake nove objave na blogu. Ljubitelji dobre fotografije obično ga obavljaju sa radošću.e</a></p>
+                      <p> Lični stil, sklonosti i ukus bitno razlikuju ove izbore kod različitih blogera. Neko će želeti više fotografija raspoređenih duž teksta, neko foto-galeriju sa nekoliko fotografija u nizu. Možda je ilustracija (crtež) ili infografika vaš izbor. Tema bloga, odnosno konkretnog posta takođe je važan faktor za izbor i upotrebu fotografija. </p>
+                      <p> <a href="https://www.google.com/">Read more...</a> </p>
+                    </div>
+                  </div>
+                  <div class="article">
+                    <div class="top">
+                      <p class="calendar">APR <span>14</span></p>
+                      <h2><a href="https://www.google.com/">Brzina učitavanja - sve važniji faktor za rangiranje sajta</a></h2>
+                      <p class="info"> <span class="category"><a href="https://www.google.com/">Category</a></span> <span class="comments"><a href="https://www.google.com/">17 comments</a></span> </p>
+                    </div>
+                    <div class="text">
+                      <p> Brzina učitavanja sajta od presudne je važnosti za uspeh web prezentacije. Na sporost učitavanja veoma loše reaguju posetioci ali i algoritmi pretraživača. Čak i sajtovi sa odličnim sadržajem, mnoštvom dobrih i optimizovanih ključnih reči, povratnih linkova, mogu ozbiljno „stradati“ od presporog učitavanja stranica. </p>
+                      <p>SEO vašeg sajta, ako je njegova brzina učitavanja loša, osuđena je unapred na propast, a vaš sajt posećivaće samo retki, zalutali putnici namernici.</p>
+                      <p> <a href="https://www.google.com/">Read more...</a> </p>
+                    </div>
+                  </div>
+                  <div class="article">
+                    <div class="top">
+                      <p class="calendar">NOV <span>10</span></p>
+                      <h2><a href="https://www.google.com/">Fotografija od ukrasa do tereta - foto galerija „ubica sajta“</a></h2>
+                      <p class="info"> <span class="category"><a href="https://www.google.com/">Category</a></span> <span class="comments"><a href="https://www.google.com/">53 comments</a></span> </p>
+                    </div>
+                    <div class="text">
+                      <p> Fotografija od ukrasa do tereta je tekst-primer loše prakse i govori čega se trebamo čuvati. Kombinacija nekoliko pogrešnih ili izostavljenih radnji dovela je do praktičnog prestanka rada sajta. Analiza ovog slučaja tu je da pomogne konkretnom adminu sajta, u rešavanju problema ali i da posluži kao primer „učenja na greškama“ nekim budućim administratorima malih sajtova, ličnih blogova… </p>
+                      <p> Današnja studija slučaja, bukvalno je današnja (problem u toku) i istinita. Galerija „sirovih“, sa smartfona prebačenih, nesmanjenih fotografija, doslovno je sajt učinila neupotrebljivim. Sa dodatim poslednjim postom i kompletnom galerijom (102 fotografije) početnoj stranici sajta potrebno je više od minuta da se učita. Ovo naravno samo pod uslovom, da posetilac ili pretraživač „ne puknu“ pre toga. Softver za testiranje (GTmetrix) jeste, malo posle trećine stranice. </p>
+                      <p> <a href="https://www.google.com/">Read more...</a> </p>
+                    </div>
+                  </div>
+                </div>
+            </section>
+            <section id="about">
+                    <div class="hero-text">
+                    <h1>About me</h1>
+                    <p class="text">Fotoreporter, sportski i fotograf venčanja.</p>
+                    <br>
+                    <p class="text">Rođen sam 1986. godine u Novom Pazaru. Diplomirao sam na Internacionalnom Univerzitetu u Novom Pazaru 2011-te godine, na Fakultetu za informatiku i informacione tehnologije. 
+                        Fotografijom se ozbiljnije bavim od 2009-te godine. Radio sam kao dopisnik dva naša najeminentnija sportska lista: “Sportski Žurnal“ i “Sport“. 
+                        Danas radim kao freelence fotograf i fotoreporter-saradnik za sportsku foto agenciju “StarSport“. 
+                        Učesnik sam par grupnih izložbi na temu sportske fotografije u Novom Pazaru.</p>
+                        <p>Najviše volim da dokumentujem emocije i pokret, otuda i najveća želja da spojim sport i venčanja na jednom mestu.</p>
+                        <br>
+                        <p>Oženjen sam, i otac sam dve devojčice.</p>
+                    </div>
+                
+                    <div class="about-image">
+                    <img src="./images/emir.jpg">
+                    </div >
+                </section>
+
+            <section id="contact"> 
+                    <div>
+                    <div class="contact-container">
+                        <div class="form-container">
+                          <div class="left-container">
+                            <div class="left-inner-container">
+                            <h2>Podaci za kontakt:</h2>
+                            <p>Emir Sadović</p>
+                            <p>Ulica 28. Novembra 54</p>
+                            <p>36300, Novi Pazar</p>
+                              <br>
+                              <p>E-mail:</p> 
+                              <p>emir.sadovic.photography@gmail.com</p>
+                              <br>
+                              <p>Phone:</p> 
+                              <p>+381 64 011 46 44</p>
+                            </div>
+                            </div>
+                          <div class="right-container">
+                            <div class="right-inner-container">
+                              <form action="#">
+                                  <h2 class="lg-view">Popunite kontakt formu</h2>
+                                  <br>
+                            <h2 class="sm-view">Let's Chat</h2>
+                                 <p>* Obavezno polje:</p>
+                                  <div class="social-container">
+                                      <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                                      <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                                      <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                                  </div>
+                                  <input type="text" placeholder="Ime: *"  />
+                                  <input type="email" placeholder="E-mail: *" />
+                                  <input type="text" placeholder="Kompanija:" />
+                                  <input type="phone" placeholder="Telefon:" />
+                                  <textarea rows="4" placeholder="Poruka:"></textarea>
+                                  <button>Submit</button>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+            </section>
+            </div>
+            </div>
+        
+        </div>
+        </div>
+            <div class="social-icons"> </div>
+            <ul>
+                <li><i class="fa fa-facebook-square"></i></li>
+                <li><i class="fa fa-instagram"></i></li>
+                <li><i class="fa fa-twitter-square"></i></li>
+                <li><i class="fa fa-pinterest-square"></i></li>
+            </ul>
+       
+     <footer class="footer">
+       <span> &copy; Copyright 2023 | <a class="text-italic">by Emir Sadović. </a> All rights reserverd. </span> 
+
+     </footer>
+</body>
+</html>
